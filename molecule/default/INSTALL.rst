@@ -6,11 +6,9 @@ Requirements
 ============
 
 * General molecule dependencies (see https://molecule.readthedocs.io/en/latest/installation.html)
-* Docker Engine
-* docker-py
-* docker
+* podman >= 1.4.1
 
 Install
 =======
 
-    $ sudo pip install docker-py
+    $ yum -y install podman
